@@ -112,6 +112,6 @@ This plot visualizes the difference between the distributions of outage causes w
 
 The question I am trying to answer is: "Where and when do major power outages tend to occur?" My null hypothesis is that major power outages occur equally across the continental United States. My alternative hypothesis is that major power outages occur more often in certain states than others. My choice of test statistic was the TVD because I will be using the categorical 'STATE', 'YEAR', and 'MONTH' columns to determine the time of outage occurrence in each state. I used the 95th percentile, 0.00479, as the significance level. The resulting p-value was 0.01. Because the p-value is greater than the 95th percentile of the empirical distribution of the TVD, I reject the null hypothesis. Therefore, it is unlikely that major power outages occur equally across the continental United States.
 
-
+<iframe src="assets/hypothesis.html" width=800 height=600 frameBorder=0></iframe>
 
 ---
